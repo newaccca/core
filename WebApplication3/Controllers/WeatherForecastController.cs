@@ -9,6 +9,8 @@ using System.Data;
 using MySql.Data;
 using MySql.Data.MySqlClient;
 using Amazon;
+using System.Diagnostics.Eventing.Reader;
+
 namespace WebApplication3.Controllers
 {
     [Route("api/[controller]")]
@@ -47,7 +49,7 @@ namespace WebApplication3.Controllers
     {
 
 
-        
+
         [HttpGet("all")]
         public IActionResult Get3()
         {
@@ -119,21 +121,40 @@ namespace WebApplication3.Controllers
 
                 foreach (var item in data)
                 {
-                    // Assuming you're inserting data into a table named 'data_table' with columns matching your MyData properties
-                    string sql = "INSERT INTO data_table (dcombobox, dcombobox_Check, dtextbox, dradio_btn, dcheck, dtoggle, detailRow) VALUES (@dcombobox, @dcombobox_Check, @dtextbox, @dradio_btn, @dcheck, @dtoggle, @detailRow)";
-                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+                    // Check if the data already exists
+                    string checkSql = "SELECT COUNT(*) FROM data_table WHERE dcombobox = @dcombobox AND dcombobox_Check = @dcombobox_Check AND dtextbox = @dtextbox AND dradio_btn = @dradio_btn AND dcheck = @dcheck AND dtoggle = @dtoggle AND detailRow = @detailRow";
+                    MySqlCommand checkCmd = new MySqlCommand(checkSql, conn);
 
                     // Add the values from your MyData object to the command parameters
-                    cmd.Parameters.AddWithValue("@dcombobox", item.Dcombobox);
-                    cmd.Parameters.AddWithValue("@dcombobox_Check", item.Dcombobox_Check);
-                    cmd.Parameters.AddWithValue("@dtextbox", item.Dtextbox);
-                    cmd.Parameters.AddWithValue("@dradio_btn", item.Dradio_btn);
-                    cmd.Parameters.AddWithValue("@dcheck", item.Dcheck);
-                    cmd.Parameters.AddWithValue("@dtoggle", item.Dtoggle);
-                    cmd.Parameters.AddWithValue("@detailRow", item.DetailRow);
+                    checkCmd.Parameters.AddWithValue("@dcombobox", item.Dcombobox);
+                    checkCmd.Parameters.AddWithValue("@dcombobox_Check", item.Dcombobox_Check);
+                    checkCmd.Parameters.AddWithValue("@dtextbox", item.Dtextbox);
+                    checkCmd.Parameters.AddWithValue("@dradio_btn", item.Dradio_btn);
+                    checkCmd.Parameters.AddWithValue("@dcheck", item.Dcheck);
+                    checkCmd.Parameters.AddWithValue("@dtoggle", item.Dtoggle);
+                    checkCmd.Parameters.AddWithValue("@detailRow", item.DetailRow);
 
-                    await cmd.ExecuteNonQueryAsync();
+                    var count = Convert.ToInt32(await checkCmd.ExecuteScalarAsync());
+
+                    // If the data does not exist, insert it
+                    if (count == 0)
+                    {
+                        string sql = "INSERT INTO data_table (dcombobox, dcombobox_Check, dtextbox, dradio_btn, dcheck, dtoggle, detailRow) VALUES (@dcombobox, @dcombobox_Check, @dtextbox, @dradio_btn, @dcheck, @dtoggle, @detailRow)";
+                        MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+                        // Add the values from your MyData object to the command parameters
+                        cmd.Parameters.AddWithValue("@dcombobox", item.Dcombobox);
+                        cmd.Parameters.AddWithValue("@dcombobox_Check", item.Dcombobox_Check);
+                        cmd.Parameters.AddWithValue("@dtextbox", item.Dtextbox);
+                        cmd.Parameters.AddWithValue("@dradio_btn", item.Dradio_btn);
+                        cmd.Parameters.AddWithValue("@dcheck", item.Dcheck);
+                        cmd.Parameters.AddWithValue("@dtoggle", item.Dtoggle);
+                        cmd.Parameters.AddWithValue("@detailRow", item.DetailRow);
+
+                        await cmd.ExecuteNonQueryAsync();
+                    }
                 }
+
 
                 return Ok();
             }
@@ -147,6 +168,44 @@ namespace WebApplication3.Controllers
             }
         }
 
+
+        [HttpDelete("newww")]
+        public async Task<IActionResult> Delete([FromBody] string data)
+        {
+            string connStr = "server=db1.cge5up1sv9ue.eu-north-1.rds.amazonaws.com;user=db1;database=db;port=3306;password=Database1";
+            MySqlConnection conn = new MySqlConnection(connStr);
+
+            try
+            {
+                if (data == "valid")
+                {
+                    Console.WriteLine("Connecting to MySQL...");
+                    conn.Open();
+
+
+                    string sql = "DELETE from data_table ";
+                    MySqlCommand cmd = new MySqlCommand(sql, conn);
+
+
+                    await cmd.ExecuteNonQueryAsync();
+
+                    return Ok();
+
+                }
+                else
+                {
+                    return StatusCode(401, " Unauthorized");
+                }
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+            finally
+            {
+                conn.Close();
+            }
+        }
 
         [HttpGet("newww")]
         public IActionResult Get4()
@@ -179,7 +238,7 @@ namespace WebApplication3.Controllers
 
 
         [HttpPost("new")]
-        public IActionResult Post( List<FoodNode2> data)
+        public IActionResult Post(List<FoodNode2> data)
         {
             var connectionString = "Data Source=NEWIMAGE39\\MSSQLSERVERMSR;Initial Catalog=DDDD;Integrated Security=True";
 
