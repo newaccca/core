@@ -1,0 +1,111 @@
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.Development.json
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.json
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.exe
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.deps.json
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.runtimeconfig.json
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.pdb
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.AssemblyReference.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\Interop.DtrHostLib.dll
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\Interop.DataCollectorTasks.dll
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.ResolveComReference.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.AssemblyInfoInputs.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.AssemblyInfo.cs
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.CoreCompileInputs.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication3.props
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication3.props
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication3.props
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.build.json
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.development.json
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\scopedcss\bundle\WebApplication3.styles.css
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.CopyComplete
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.dll
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\refint\WebApplication3.dll
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.pdb
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.genruntimeconfig.cache
+D:\Angular test 1\WebApplication3\WebApplication3\obj\Debug\net6.0\ref\WebApplication3.dll
+D:\Angular test 1\WebApplication3\WebApplication3\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.AssemblyReference.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.ResolveComReference.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.GeneratedMSBuildEditorConfig.editorconfig
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.AssemblyInfoInputs.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.AssemblyInfo.cs
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.CoreCompileInputs.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.MvcApplicationPartsAssemblyInfo.cs
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.MvcApplicationPartsAssemblyInfo.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.dll
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\refint\WebApplication3.dll
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.pdb
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.Development.json
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\appsettings.json
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.exe
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.deps.json
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.runtimeconfig.json
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\WebApplication3.pdb
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.WebApplication3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.build.WebApplication3.props
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.WebApplication3.props
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.WebApplication3.props
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.pack.json
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.build.json
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\staticwebassets.development.json
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\scopedcss\bundle\WebApplication3.styles.css
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.csproj.CopyComplete
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\WebApplication3.genruntimeconfig.cache
+D:\WebApplication3\WebApplication3\obj\Debug\net6.0\ref\WebApplication3.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\AWSSDK.Core.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Google.Protobuf.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\MySql.Data.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.IO.Pipelines.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Text.Json.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\ZstdSharp.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\WebApplication3\WebApplication3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
